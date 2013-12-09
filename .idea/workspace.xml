@@ -67,7 +67,16 @@
       <file leaf-file-name="Plugin.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/Plugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+            <state line="16" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ant.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ant.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.20708749" vertical-offset="0" max-vertical-offset="903">
               <folding />
             </state>
           </provider>
@@ -76,20 +85,14 @@
       <file leaf-file-name="WireBase.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/wires/WireBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="18" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#WireBase#0;class#WireBase#0" expanded="true" />
-                <element signature="method#Tripped#0;class#WireBase#0" expanded="true" />
-                <element signature="e#992#1001#0" expanded="true" />
-                <element signature="method#OnConfigurationChanged#0;class#WireBase#0" expanded="true" />
-              </folding>
+            <state line="14" column="18" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1003">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="plugin.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugin.yml">
+        <entry file="file://$PROJECT_DIR$/src/plugin.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="18" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
               <folding />
@@ -98,7 +101,7 @@
         </entry>
       </file>
       <file leaf-file-name="defaults.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/defaults.yml">
+        <entry file="file://$PROJECT_DIR$/src/defaults.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
               <folding />
@@ -109,14 +112,8 @@
       <file leaf-file-name="DiggingStraightDown.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/wires/DiggingStraightDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="80" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#DiggingStraightDown#0;class#DiggingStraightDown#0" expanded="true" />
-                <element signature="method#OnBlockBreak#0;class#DiggingStraightDown#0" expanded="true" />
-                <element signature="method#CheckEvent#0;class#DiggingStraightDown#0" expanded="true" />
-                <element signature="e#1879#1896#0" expanded="true" />
-              </folding>
+            <state line="50" column="80" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1003">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,20 +121,16 @@
       <file leaf-file-name="BlockBreakAir.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/wires/BlockBreakAir.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#BlockBreakAir#0;class#BlockBreakAir#0" expanded="true" />
-                <element signature="method#OnBlockBreak#0;class#BlockBreakAir#0" expanded="true" />
-              </folding>
+            <state line="9" column="13" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="510">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TripwireLogRepository.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TripwireLogRepository.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/database/TripwireLogRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="32" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.7735849" vertical-offset="85" max-vertical-offset="986">
+            <state line="46" column="32" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="986">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#TripwireLogRepository#0;class#TripwireLogRepository#0" expanded="true" />
@@ -167,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/no/runsafe/tripwire/wires/BlockBreakAir.java" />
         <option value="$PROJECT_DIR$/src/no/runsafe/tripwire/wires/DiggingStraightDown.java" />
         <option value="$PROJECT_DIR$/src/no/runsafe/tripwire/database/TripwireLogRepository.java" />
+        <option value="$PROJECT_DIR$/ant.xml" />
       </list>
     </option>
   </component>
@@ -257,10 +251,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tripwire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -277,32 +267,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tripwire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tripwire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tripwire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tripwire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,11 +285,12 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Framework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\test\github\Tripwire\src" />
       <recent name="D:\test\github\Tripwire" />
     </key>
   </component>
@@ -364,6 +329,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -389,19 +367,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -476,28 +441,28 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31391585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2518637" sideWeight="0.6858974" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31391585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -525,6 +490,62 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/Plugin.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/wires/WireBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="18" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/defaults.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/wires/DiggingStraightDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="80" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/wires/BlockBreakAir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/database/TripwireLogRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="32" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="986">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#TripwireLogRepository#0;class#TripwireLogRepository#0" expanded="true" />
+            <element signature="method#LogWarning#0;class#TripwireLogRepository#0" expanded="true" />
+            <element signature="method#getTableName#0;class#TripwireLogRepository#0" expanded="true" />
+            <element signature="e#804#827#0" expanded="true" />
+            <element signature="e#865#873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/Plugin.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="44" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="476">
           <folding />
         </state>
@@ -533,24 +554,18 @@
     <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/wires/WireBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="119" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="935">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#WireBase#0;class#WireBase#0" expanded="true" />
-            <element signature="method#Tripped#0;class#WireBase#0" expanded="true" />
-            <element signature="e#992#1001#0" expanded="true" />
-            <element signature="method#OnConfigurationChanged#0;class#WireBase#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugin.yml">
+    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="18" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/defaults.yml">
+    <entry file="file://$PROJECT_DIR$/src/defaults.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
           <folding />
@@ -560,24 +575,14 @@
     <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/wires/DiggingStraightDown.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="72" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1020">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#DiggingStraightDown#0;class#DiggingStraightDown#0" expanded="true" />
-            <element signature="method#OnBlockBreak#0;class#DiggingStraightDown#0" expanded="true" />
-            <element signature="method#CheckEvent#0;class#DiggingStraightDown#0" expanded="true" />
-            <element signature="e#1879#1896#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/wires/BlockBreakAir.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="66" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="527">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#BlockBreakAir#0;class#BlockBreakAir#0" expanded="true" />
-            <element signature="method#OnBlockBreak#0;class#BlockBreakAir#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -595,23 +600,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugin.yml">
+    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="18" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/defaults.yml">
+    <entry file="file://$PROJECT_DIR$/src/defaults.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/Plugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
@@ -619,43 +617,27 @@
     <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/wires/WireBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="18" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#WireBase#0;class#WireBase#0" expanded="true" />
-            <element signature="method#Tripped#0;class#WireBase#0" expanded="true" />
-            <element signature="e#992#1001#0" expanded="true" />
-            <element signature="method#OnConfigurationChanged#0;class#WireBase#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/wires/DiggingStraightDown.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="80" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#DiggingStraightDown#0;class#DiggingStraightDown#0" expanded="true" />
-            <element signature="method#OnBlockBreak#0;class#DiggingStraightDown#0" expanded="true" />
-            <element signature="method#CheckEvent#0;class#DiggingStraightDown#0" expanded="true" />
-            <element signature="e#1879#1896#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/wires/BlockBreakAir.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#BlockBreakAir#0;class#BlockBreakAir#0" expanded="true" />
-            <element signature="method#OnBlockBreak#0;class#BlockBreakAir#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/database/TripwireLogRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="32" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.7735849" vertical-offset="85" max-vertical-offset="986">
+        <state line="46" column="32" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="986">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#TripwireLogRepository#0;class#TripwireLogRepository#0" expanded="true" />
@@ -664,6 +646,20 @@
             <element signature="e#804#827#0" expanded="true" />
             <element signature="e#865#873#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/runsafe/tripwire/Plugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ant.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.20708749" vertical-offset="0" max-vertical-offset="903">
+          <folding />
         </state>
       </provider>
     </entry>
