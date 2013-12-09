@@ -1,9 +1,9 @@
 package no.runsafe.tripwire.wires;
 
-import no.runsafe.framework.api.IDebug;
 import no.runsafe.framework.api.IServer;
 import no.runsafe.framework.api.block.IBlock;
 import no.runsafe.framework.api.event.block.IBlockBreak;
+import no.runsafe.framework.api.log.IDebug;
 import no.runsafe.framework.api.player.IPlayer;
 import no.runsafe.tripwire.database.TripwireLogRepository;
 

@@ -1,9 +1,9 @@
 package no.runsafe.tripwire.wires;
 
 import no.runsafe.framework.api.IConfiguration;
-import no.runsafe.framework.api.IDebug;
 import no.runsafe.framework.api.IServer;
 import no.runsafe.framework.api.event.plugin.IConfigurationChanged;
+import no.runsafe.framework.api.log.IDebug;
 import no.runsafe.framework.api.player.IPlayer;
 import no.runsafe.framework.text.ChatColour;
 import no.runsafe.tripwire.database.TripwireLogRepository;
@@ -23,6 +23,7 @@ public class WireBase implements IConfigurationChanged
 
 	public void Tripped(IPlayer player, int category, String message)
 	{
+		logging.LogWarning(player.getName(), category, message);
 		output.logWarning(ChatColour.RED + "[TripWire category %d] " + ChatColour.AQUA + "%s" + ": " + ChatColour.MAGIC + "%s", category, player.getName(), message);
 		if (alertLevel <= category)
 		{
