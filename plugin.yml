@@ -1,0 +1,10 @@
+name: TripWire
+main: no.runsafe.tripwire.Plugin
+version: 1.0
+authors: [mortenn]
+description: Plugin to detect hackers on the server
+
+permissions:
+  tripwire.notify:
+    description: Receive notifications from tripwire
+    default: false

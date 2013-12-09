@@ -1,0 +1,7 @@
+# Default config.yml
+
+database:
+  url: jdbc:mysql://localhost:3306/database
+  username: username
+  password: password
+tripwire.alertlevel: 2
