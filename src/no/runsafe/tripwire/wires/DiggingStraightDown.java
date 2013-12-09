@@ -4,6 +4,7 @@ import no.runsafe.framework.api.ILocation;
 import no.runsafe.framework.api.IServer;
 import no.runsafe.framework.api.block.IBlock;
 import no.runsafe.framework.api.event.block.IBlockBreak;
+import no.runsafe.framework.api.log.IConsole;
 import no.runsafe.framework.api.log.IDebug;
 import no.runsafe.framework.api.player.IPlayer;
 import no.runsafe.tripwire.database.TripwireLogRepository;
@@ -12,9 +13,9 @@ import java.util.HashMap;
 
 public class DiggingStraightDown extends WireBase implements IBlockBreak
 {
-	public DiggingStraightDown(TripwireLogRepository logRepository, IDebug output, IServer server)
+	public DiggingStraightDown(TripwireLogRepository logRepository, IDebug output, IConsole console, IServer server)
 	{
-		super(logRepository, output, server);
+		super(logRepository, output, console, server);
 	}
 
 	@Override
