@@ -21,7 +21,8 @@ public class DiggingStraightDown extends WireBase implements IBlockBreak
 	@Override
 	public boolean OnBlockBreak(IPlayer player, IBlock block)
 	{
-		CheckEvent(player, block);
+		if (player.isSurvivalist() || player.isAdventurer())
+			CheckEvent(player, block);
 		return true;
 	}
 
@@ -38,8 +39,8 @@ public class DiggingStraightDown extends WireBase implements IBlockBreak
 			&& location.getBlockZ() == playerBreakLocation.get(player.getName()).getBlockZ()
 			&& location.getBlockY() < playerBreakLocation.get(player.getName()).getBlockY())
 		{
-			if (playerBreakCount.get(player.getName()) == 4)
-				Tripped(player, 5, String.format("Digging straight down for at least 5 blocks [%d,%d,%d]", location.getBlockX(), location.getBlockY(), location.getBlockZ()));
+			if (playerBreakCount.get(player.getName()) == 9)
+				Tripped(player, 10, String.format("Digging straight down for at least 10 blocks [%d,%d,%d]", location.getBlockX(), location.getBlockY(), location.getBlockZ()));
 			playerBreakCount.put(player.getName(), playerBreakCount.get(player.getName()) + 1);
 		}
 		else
