@@ -6,7 +6,6 @@ import no.runsafe.framework.api.event.plugin.IConfigurationChanged;
 import no.runsafe.framework.api.log.IConsole;
 import no.runsafe.framework.api.log.IDebug;
 import no.runsafe.framework.api.player.IPlayer;
-import no.runsafe.framework.text.ChatColour;
 import no.runsafe.tripwire.database.TripwireLogRepository;
 
 import java.util.ArrayList;
@@ -26,7 +25,7 @@ public class WireBase implements IConfigurationChanged
 	public void Tripped(IPlayer player, int category, String message)
 	{
 		logging.LogWarning(player.getName(), category, message);
-		console.logWarning(ChatColour.RED + "[TripWire category %d] " + ChatColour.AQUA + "%s" + ": " + ChatColour.MAGIC + "%s", category, player.getName(), message);
+		console.logWarning("&c[TripWire category %d] &b%s: &k%s", category, player.getName(), message);
 		if (alertLevel <= category)
 		{
 			debugger.debugFine("Sending alerts");
@@ -39,7 +38,7 @@ public class WireBase implements IConfigurationChanged
 			else
 				debugger.debugFine(String.format("Found %d players", players.size()));
 			for (IPlayer alert : players)
-				alert.sendMessage(ChatColour.RED + "[TripWire] " + ChatColour.AQUA + player.getName() + ": " + ChatColour.LIGHT_PURPLE + message);
+				alert.sendColouredMessage("&c[TripWire] &b%s: &d%s", player.getName(), message);
 		}
 	}
 
