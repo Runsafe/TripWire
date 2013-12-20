@@ -1,6 +1,6 @@
 name: TripWire
 main: no.runsafe.tripwire.Plugin
-version: 1.0
+version: 1.0.@BUILD@
 authors: [mortenn]
 description: Plugin to detect hackers on the server
 
