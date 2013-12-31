@@ -16,7 +16,7 @@ public class TripwireLogRepository extends Repository
 
 	public void LogWarning(String playerName, int category, String message)
 	{
-		db.Execute(
+		db.execute(
 			"INSERT INTO tripwire_events (player, category, message) VALUES (?, ?, ?)",
 			playerName,
 			category,
