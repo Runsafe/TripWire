@@ -1,28 +1,20 @@
 package no.runsafe.tripwire.database;
 
-import no.runsafe.framework.api.database.IDatabase;
 import no.runsafe.framework.api.database.ISchemaUpdate;
 import no.runsafe.framework.api.database.Repository;
 import no.runsafe.framework.api.database.SchemaUpdate;
 
 public class TripwireLogRepository extends Repository
 {
-	public TripwireLogRepository(IDatabase database)
-	{
-		db = database;
-	}
-
 	public void LogWarning(String playerName, int category, String message)
 	{
-		db.execute(
+		database.execute(
 			"INSERT INTO tripwire_events (player, category, message) VALUES (?, ?, ?)",
 			playerName,
 			category,
 			message
 		);
 	}
-
-	private IDatabase db;
 
 	@Override
 	public String getTableName()
