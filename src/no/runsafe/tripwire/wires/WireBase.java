@@ -29,11 +29,11 @@ public class WireBase implements IConfigurationChanged
 		if (alertLevel <= category)
 		{
 			debugger.debugFine("Sending alerts");
-			ArrayList<IPlayer> players = new ArrayList<IPlayer>();
+			ArrayList<IPlayer> players = new ArrayList<>();
 			for (IPlayer user : server.getOnlinePlayers())
 				if (user.hasPermission("tripwire.notify"))
 					players.add(user);
-			if (players.size() == 0)
+			if (players.isEmpty())
 				debugger.debugFine("Found no players");
 			else
 				debugger.debugFine(String.format("Found %d players", players.size()));

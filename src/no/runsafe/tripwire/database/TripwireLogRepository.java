@@ -4,6 +4,8 @@ import no.runsafe.framework.api.database.ISchemaUpdate;
 import no.runsafe.framework.api.database.Repository;
 import no.runsafe.framework.api.database.SchemaUpdate;
 
+import javax.annotation.Nonnull;
+
 public class TripwireLogRepository extends Repository
 {
 	public void LogWarning(String playerName, int category, String message)
@@ -16,12 +18,14 @@ public class TripwireLogRepository extends Repository
 		);
 	}
 
+	@Nonnull
 	@Override
 	public String getTableName()
 	{
 		return "tripwire_events";
 	}
 
+	@Nonnull
 	@Override
 	public ISchemaUpdate getSchemaUpdateQueries()
 	{

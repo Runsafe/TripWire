@@ -50,6 +50,6 @@ public class DiggingStraightDown extends WireBase implements IBlockBreak
 		}
 	}
 
-	private HashMap<String, ILocation> playerBreakLocation = new HashMap<String, ILocation>();
-	private HashMap<String, Integer> playerBreakCount = new HashMap<String, Integer>();
+	private final HashMap<String, ILocation> playerBreakLocation = new HashMap<>();
+	private final HashMap<String, Integer> playerBreakCount = new HashMap<>();
 }
