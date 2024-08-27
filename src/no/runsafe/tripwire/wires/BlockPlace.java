@@ -19,7 +19,11 @@ public class BlockPlace extends WireBase implements IBlockPlace
 	public boolean OnBlockPlace(IPlayer player, IBlock block)
 	{
 		//Check if player is trying to place a suspicious "Copy Me" block that's usually intended to soft-ban players.
-		if (block.getMaterial().getName().toLowerCase().contains("copy me"))
+		String blockName = block.getMaterial().getItem().getDisplayName();
+		if (blockName == null)
+			return true;
+
+		if (blockName.toLowerCase().contains("copy me"))
 			Tripped(player, 20, "Placed Copy Me block at: " + block.getLocation());
 
 		return true;
